@@ -1,0 +1,2 @@
+float32 probe_front
+float32 probe_side

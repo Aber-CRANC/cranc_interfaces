@@ -1,0 +1,9 @@
+# Lock and unlock differentials
+
+bool UNLOCKED = 0
+bool LOCKED = 1
+
+bool rear_differential_locked
+bool front_differential_locked
+---
+bool successful  # true if the service callback was executed

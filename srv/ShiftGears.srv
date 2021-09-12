@@ -1,0 +1,8 @@
+# constants
+int8 LOW_GEAR=0
+int8 HIGH_GEAR=1
+
+# variables
+int8 transmission_gear
+---
+bool successful # true if the service callback was executed
