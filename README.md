@@ -48,7 +48,7 @@ Or better, use `rosdep`:
 To build from source, clone the latest version from this repository into your colcon workspace and compile the package using
 
 	cd colcon_workspace/src
-	git clone https://github.com/ethz-asl/ros_best_practices.git
+	git clone https://github.com/Aber-CRANC/cranc_interfaces.git
 	cd ../
 	rosdep install --from-paths . --ignore-src
 	colcon build
