@@ -1,0 +1,9 @@
+
+float32 ground_mean_temperature
+float32 water_mean_temperature
+
+float32 ground_temperature_deviation
+float32 water_temperature_deviation
+
+float32 probe_front
+float32 probe_side

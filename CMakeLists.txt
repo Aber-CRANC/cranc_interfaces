@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ShiftGears.srv"
   "srv/LockDifferentials.srv"
   "srv/SetLedMode.srv"
+  "srv/TriggerSystemCommand.srv"
   "msg/Attitude.msg"
   "msg/WaterProbe.msg"
   DEPENDENCIES std_msgs geometry_msgs)

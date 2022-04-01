@@ -1,0 +1,10 @@
+# This is a service of triggering system commands
+
+# System commands supported
+uint16 SHUTDOWN=0            # Shutdown the system
+uint16 REBOOT=1          # Reboot the system
+
+uint16 command # System command to trigger
+
+---
+bool successful # true if the service callback was executed
