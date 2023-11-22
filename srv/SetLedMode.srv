@@ -1,13 +1,15 @@
 # This service will set the LED pattern
 
 # Operation modes supported
-byte SURVEYING=0            # Orange slow flashing
-byte CALIBRATING=1          # Purple slow flashing
-byte EMERGENCY=2            # Red flashing
-byte AVOIDING_WATER=3       # Blue flashing
-byte MISSION_DONE_WAITING=4 # Green slow flashing
+uint8 SURVEYING=0            # Orange slow flashing
+uint8 CALIBRATING=1          # Purple slow flashing
+uint8 EMERGENCY=2            # Red flashing
+uint8 AVOIDING_WATER=3       # Blue flashing
+uint8 MISSION_DONE_WAITING=4 # Green slow flashing
+uint8 BOOTING=5              # Green/white flashing
+uint8 OFF=255                # off
 
-byte mode # Operation mode enumerated above
+uint8 mode # Operation mode enumerated above
 
 ---
 bool successful # true if the service callback was executed
